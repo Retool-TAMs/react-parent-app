@@ -22,9 +22,6 @@ const App = () => {
                     {mainContent === 'embed-code' && (
                         <><p>Embeded app: https://tam.retool.dev/apps/afff5ec6-3307-11ef-a7da-1b4740d2e27e/Embedded%20Apps/Employees%20Embed?_embed=true</p><iframe src="https://tam.retool.dev/apps/afff5ec6-3307-11ef-a7da-1b4740d2e27e/Embedded%20Apps/Employees%20Embed?_embed=true" width="100%" height="800px"></iframe></>
                     )}
-                    {mainContent === 'embed-code-with-sso' && (
-                        <p>Coming soon :)</p>
-                    )}
                     {mainContent === 'retool-embed' && (
                         <p>Coming soon :)</p>
                     )}

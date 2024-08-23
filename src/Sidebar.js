@@ -29,9 +29,6 @@ const Sidebar = ({ onSidebarClick }) => {
                     <a href="#" style={linkStyle} onClick={() => handleClick('embed-code')}>Embed Code</a>
                 </li>
                 <li>
-                    <a href="#" style={linkStyle} onClick={() => handleClick('embed-code-with-sso')}>Embed Code with SSO</a>
-                </li>
-                <li>
                     <a href="#" style={linkStyle} onClick={() => handleClick('retool-embed')}>Retool Embed</a>
                 </li>
                 <li>
