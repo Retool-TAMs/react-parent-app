@@ -35,7 +35,7 @@ function EmbedApp() {
             <button onClick={handleClick}>Send to Retool app</button>
             <p>Data from retool: {message}</p>
             <Retool
-                url="https://tam.retool.dev/apps/476553c2-3319-11ef-b67e-6f1e2efc4819/Embedded%20Apps/Embed%20With%20Parent%20Interaction?_embed=true"
+                url="https://tamcloud.retool.com/apps/476553c2-3319-11ef-b67e-6f1e2efc4819/Embedded%20Apps%20--%20DO%20NOT%20EDIT/Embed%20Parent%20Interaction?_embed=true"
                 height="500px"
                 data={dataToPass}
             />
